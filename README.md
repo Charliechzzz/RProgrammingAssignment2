@@ -1,5 +1,6 @@
 # RProgrammingAssignment2
 
+```R
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
         set <- function(y) {
@@ -27,3 +28,4 @@ cacheSolve <- function(x, ...) {
         x$setInverse(inv)
         inv
 }
+```
